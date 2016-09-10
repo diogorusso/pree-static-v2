@@ -5,8 +5,10 @@ var browsersync = require('browser-sync');
 var config = require('../config').site;
 
 // 6s slower in each relaod
-gulp.task('jekyll',shell.task([ config.build ]));
+gulp.task('jekyll-dev',shell.task([ config.dev ]));
+gulp.task('jekyll-ghpages',shell.task([ config.ghpages ]));
+gulp.task('jekyll-sftp',shell.task([ config.sftpDeploy ]));
 
-gulp.task('jekyll-rebuild', ['jekyll'], function() {
+gulp.task('jekyll-rebuild', ['jekyll-dev'], function() {
   browsersync.reload();
 });

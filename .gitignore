@@ -1,6 +1,8 @@
 _private
 .ftppass
 _site
+_site_gh-pages
+_site_sftp
 node_modules
 .sass-cache
 .jekyll-metadata
