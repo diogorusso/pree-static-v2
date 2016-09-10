@@ -1,3 +1,0 @@
-# Site settings
-baseurl: "/pree-static-v2" # DEV subpath empty for GULP
-destination: "_site_gh-pages"

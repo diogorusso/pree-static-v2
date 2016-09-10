@@ -1,5 +1,0 @@
-#LOCAL HOST config
-
-# Site settings
-baseurl: "" # DEV subpath empty for GULP
-

@@ -1,3 +1,0 @@
-# Site settings
-baseurl: "" # DEV subpath empty for GULP
-destination: "_site_sftp"

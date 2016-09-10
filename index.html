@@ -1,8 +1,12 @@
----
-layout: default
----
-
-<nav class="navbar navbar-fixed-top">
+<!DOCTYPE html>
+<html>
+  <script src="lib/build/vendor.js"></script>
+<script src="lib/build/script.js"></script>
+<link href="lib/build/styles.css" rel="stylesheet">
+<link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.3/css/font-awesome.min.css" rel="stylesheet" integrity="sha384-T8Gy5hrqNKT+hzMclPo118YTQO6cYprQmhrYwIiQ/3axmI1hQomh7Ud2hPOy8SP1" crossorigin="anonymous">
+<link href="https://fonts.googleapis.com/css?family=Lato:300,400,900" rel="stylesheet"> 
+  <body>
+  <nav class="navbar navbar-fixed-top">
   <!--div class="container"-->
     <div class="navbar-header">
       
@@ -12,7 +16,7 @@ layout: default
         <span class="icon-bar"></span>
         <span class="icon-bar"></span>
       </button>
-      <a class="navbar-brand" href="#"><img class="logo" src="{{ site.baseurl }}/lib/imgs/pree.png"></a>
+      <a class="navbar-brand" href="#"><img class="logo" src="/pree-static-v2/lib/imgs/pree.png"></a>
     </div>
     <div class="collapse navbar-collapse">
       <ul class="nav navbar-nav pull-right">
@@ -157,14 +161,10 @@ layout: default
   <h1 class="page-heading">Holla Mundo YEAHHHHHH</h1>
 
   <ul class="post-list">
-    {% for post in site.posts %}
-      <li>
-        <span class="post-meta">{{ post.date | date: "%b %-d, %Y" }}</span>
-
-        <h2>
-          <a class="post-link" href="{{ post.url | prepend: site.baseurl }}">{{ post.title | escape }}</a>
-        </h2>
-      </li>
-    {% endfor %}
+    
   </ul>
 </div-->
+
+  </body>
+</html>
+
