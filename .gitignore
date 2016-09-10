@@ -1,0 +1,8 @@
+_private
+.ftppass
+_site
+node_modules
+.sass-cache
+.jekyll-metadata
+Gemfile.lock
+assets
