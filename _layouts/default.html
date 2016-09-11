@@ -2,7 +2,12 @@
 <html>
   {% include head.html %} 
   <body>
-  {{ content }}
+	  {% include nav_top.html %}
+	  {% include modals.html %}
+	  <div style="padding-top:95px;height:100%;">
+	  	{{ content }}
+	  	{% include footer.html %}
+	  </div>
   </body>
 </html>
 

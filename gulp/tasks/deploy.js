@@ -5,7 +5,7 @@ var runSequence = require('gulp-run-sequence');
 
 
 gulp.task('deploy', function(cb) {
-  runSequence('sftp-deploy', cb);
+  runSequence('ghpages-deploy','sftp-deploy', cb);
 });
  
 

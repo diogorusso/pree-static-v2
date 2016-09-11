@@ -3,3 +3,30 @@
 <link href="lib/build/styles.css" rel="stylesheet">
 <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.3/css/font-awesome.min.css" rel="stylesheet" integrity="sha384-T8Gy5hrqNKT+hzMclPo118YTQO6cYprQmhrYwIiQ/3axmI1hQomh7Ud2hPOy8SP1" crossorigin="anonymous">
 <link href="https://fonts.googleapis.com/css?family=Lato:300,400,900" rel="stylesheet">
+
+<style type="text/css">
+	/* Medium Devices, Desktops */
+    @media only screen and (min-width : 1200px) {
+
+        .header {
+            background: url('{{ site.baseurl }}/lib/imgs/header_lg.png') no-repeat bottom right scroll #D86262;
+        };
+    }
+
+    /* Small Devices, Tablets */
+    @media only screen and (min-width : 800px) and (max-width: 1199px) {
+
+        .header {
+            background: url('{{ site.baseurl }}/lib/imgs/header_md.png') no-repeat bottom right scroll #D86262;
+        };
+    }
+
+    @media only screen and (max-width : 799px){
+
+        .header {
+            background: url('{{ site.baseurl }}/lib/imgs/header_sm.png') no-repeat bottom right scroll #D86262;
+            padding-top: 105px;
+            padding-bottom: 150px;
+        };
+    }
+</style>

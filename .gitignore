@@ -1,5 +1,6 @@
 _private
 .ftppass
+.publish
 _site
 _site_gh-pages
 _site_sftp

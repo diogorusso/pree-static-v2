@@ -103,22 +103,6 @@ nav.navbar.shrink {
   .header h3 {
     font-size: 35px; }
 
-/* Medium Devices, Desktops */
-@media only screen and (min-width: 1200px) {
-  .header {
-    background: url("/lib/imgs/header_lg.png") no-repeat bottom right scroll #D86262; } }
-
-/* Small Devices, Tablets */
-@media only screen and (min-width: 800px) and (max-width: 1199px) {
-  .header {
-    background: url("/lib/imgs/header_md.png") no-repeat bottom right scroll #D86262; } }
-
-@media only screen and (max-width: 799px) {
-  .header {
-    background: url("/lib/imgs/header_sm.png") no-repeat bottom right scroll #D86262;
-    padding-top: 105px;
-    padding-bottom: 150px; } }
-
 .section-pree {
   padding: 150px 0; }
   .section-pree h1 {
