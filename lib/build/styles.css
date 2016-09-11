@@ -97,7 +97,12 @@ nav.navbar.shrink {
   height: 100%;
   background: #D86262; }
   .header .header-box {
-    padding-left: 11%; }
+    padding-left: 11%;
+    -webkit-transform: translateY(-22%);
+    -moz-transform: translateY(-22%);
+    -ms-transform: translateY(-22%);
+    -o-transform: translateY(-22%);
+    transform: translateY(-22%); }
   .header h1, .header h3 {
     color: #fff; }
   .header h3 {
