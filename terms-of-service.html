@@ -3,6 +3,9 @@
   <script src="lib/build/vendor.js"></script>
 <script src="lib/build/script.js"></script>
 <link href="lib/build/styles.css" rel="stylesheet">
+
+<meta name="viewport" content="width=device-width, initial-scale=1">
+
 <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.3/css/font-awesome.min.css" rel="stylesheet" integrity="sha384-T8Gy5hrqNKT+hzMclPo118YTQO6cYprQmhrYwIiQ/3axmI1hQomh7Ud2hPOy8SP1" crossorigin="anonymous">
 <link href="https://fonts.googleapis.com/css?family=Lato:300,400,900" rel="stylesheet">
 
@@ -10,28 +13,36 @@
 	/* Medium Devices, Desktops */
     @media only screen and (min-width : 1200px) {
 
-        .header {
+        #top {
             background: url('/pree-static-v2/lib/imgs/header_lg.png') no-repeat bottom right scroll #D86262;
-        };
+        }
+        #about {
+            background: url('/pree-static-v2/lib/imgs/about_lg.png') no-repeat bottom right scroll #D86262;
+        }
     }
 
     /* Small Devices, Tablets */
     @media only screen and (min-width : 800px) and (max-width: 1199px) {
 
-        .header {
+        #top {
             background: url('/pree-static-v2/lib/imgs/header_md.png') no-repeat bottom right scroll #D86262;
-        };
+        }
+        #about {
+            background: url('/pree-static-v2/lib/imgs/about_md.png') no-repeat bottom right scroll #D86262;
+        }
     }
 
     @media only screen and (max-width : 799px){
 
-        .header {
+        #top {
             background: url('/pree-static-v2/lib/imgs/header_sm.png') no-repeat bottom right scroll #D86262;
-            padding-top: 105px;
-            padding-bottom: 150px;
-        };
+        }
+        #about {
+            background: url('/pree-static-v2/lib/imgs/about_sm.png') no-repeat bottom right scroll #D86262;
+        }
     }
-</style> 
+</style>
+ 
   <body>
 	  <nav class="navbar navbar-fixed-top">
   <!--div class="container"-->
@@ -165,10 +176,13 @@
                 <a href="https://www.facebook.com/PreeApp-1736127559977562/" style="margin:0px 10px;" target="blank"><i class="fa fa-facebook-official" aria-hidden="true"></i></a>
                 <a href="https://twitter.com/PreeApp" style="margin:0px 10px;"><i class="fa fa-twitter" aria-hidden="true" target="blank"></i></a>
                 <a href="https://www.linkedin.com/company/pree-media-inc-?trk=company_logo" style="margin:0px 10px;" target="blank"><i class="fa fa-linkedin-square" aria-hidden="true"></i></a>
+
+                <br><br><a href="/contact.html">Contact Us</a><br>
+                
             </h3>
 
             <p style="padding:5px 0 15px 0;">
-                <a href="/contact.html" style="margin:0px 10px;">Contact Us</a>
+                
                 <a href="/terms-of-service.html" style="margin:0px 10px;">Terms of Service</a>
                 <a href="/privacy-policy.html" style="margin:0px 10px;">Privacy Policy</a>
                 <!--a href="#" style="margin:0px 10px;">Blog</a-->
